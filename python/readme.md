@@ -2,6 +2,21 @@
 
 본 프로젝트는 FastAPI를 활용하여 구축된 도서관 관리 시스템의 백엔드 서버입니다. RESTful API 설계를 바탕으로 사용자 인증, 도서 리소스 관리, 대출 및 반납 비즈니스 로직을 구현하였습니다.
 
+## 설치 환경 및 실행 정보
+Windows 11 환경에서 Visual Studio Code를 사용하여 개발 및 테스트되었습니다.
+
+- **OS**: Windows 11 (64-bit)
+- **IDE**: Visual Studio Code (VS Code)
+  - 필수 확장: `Python` (Microsoft), `Pylance`
+- **Runtime**: Python 3.13+
+- **Framework**: FastAPI
+- **Web Server**: Uvicorn (ASGI server)
+- **Terminal**: Windows PowerShell (VS Code 내장 터미널)
+- **Dependencies**: 
+  - `fastapi`: API 프레임워크 핵심 기능 및 라우팅
+  - `uvicorn`: 비동기 서버 실행
+  - `pydantic`: 데이터 검증 및 스키마 정의
+
 ## 주요 구현 내용
 
 ### 1. API 엔드포인트 구현 (POST, GET, DELETE)
