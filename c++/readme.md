@@ -17,7 +17,7 @@ C++ 스마트 포인터를 활용하여 다중 로그 파일을 관리하는 Log
 - `readLogs`: 파일의 전체 내용을 `std::vector<std::string>` 형태로 반환하여 로그 분석을 용이하게 합니다.
 - `closeLogFile`: 명시적으로 파일을 닫고 관리 목록에서 삭제하여 자원을 반환합니다.
 
-### 4. 실행 예시 (Output)
+### 4. 실행 (Output)
 ```text
 // error.log 파일 내용
 [2025-09-04 14:30:15] Database connection failed
