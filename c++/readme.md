@@ -2,6 +2,17 @@
 
 C++ 스마트 포인터를 활용하여 다중 로그 파일을 관리하는 LogFileManager 구현 프로젝트입니다.
 
+## 설치 환경 및 빌드 정보 
+Windows 11환경에서 Visual Studio Code를 사용하여 개발 및 테스트되었습니다.
+
+- **OS**: Windows 11 (64-bit)
+- **IDE**: Visual Studio Code (VS Code)
+  - 필수 확장: `C/C++ Extension Pack` (Microsoft)
+- **Compiler**: MinGW-w64 (g++ 15.2.0)
+  - C++ 표준: C++17
+- **Terminal**: Windows PowerShell (VS Code 내장 터미널)
+- **Build Tool**: g++ (GNU Compiler Collection)
+
 ### 1. 개요
 각기 다른 목적(에러, 디버그, 정보 등)의 로그 파일을 효율적으로 관리하고, 타임스탬프를 포함한 로그 기록 및 읽기 기능을 제공합니다. 리소스 관리의 안전성을 위해 `std::unique_ptr`를 사용한 것이 핵심입니다.
 
@@ -31,13 +42,6 @@ C++ 스마트 포인터를 활용하여 다중 로그 파일을 관리하는 Log
 // readLogs 반환값
 errorLogs[0] = "[2025-09-04 14:30:15] Database connection failed"
 
-### 5. 설치 환경 및 빌드 정보 
-Windows 11환경에서 Visual Studio Code를 사용하여 개발 및 테스트되었습니다.
 
-- **OS**: Windows 11 (64-bit)
-- **IDE**: Visual Studio Code (VS Code)
-  - 필수 확장: `C/C++ Extension Pack` (Microsoft)
-- **Compiler**: MinGW-w64 (g++ 15.2.0)
-  - C++ 표준: C++17
-- **Terminal**: Windows PowerShell (VS Code 내장 터미널)
-- **Build Tool**: g++ (GNU Compiler Collection)
+
+
